@@ -5,24 +5,35 @@
     <style type="text/css">
       .msg {
         font-size: 36px;
-        letter-spacing: 0.5px;
-        background: linear-gradient(to top right, #28c83f, #1ca388);
-        -webkit-background-clip: text;
-        color: transparent;
+        letter-spacing: 0.25px;
         
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        -webkit-background-clip: text;
+        color: transparent;
+      }
+      
+      .green {
+        background: linear-gradient(to top right, #28c83f, #1ca388);
+      }
+      
+      .green2 {
+        background: linear-gradient(315deg,#42d392 25%,#647eff);
+      }
+      
+      .green3 {
+        background: linear-gradient(90deg,rgba(66,184,131,1) 0%,rgba(39,179,137,1) 19%,rgba(100,126,255,1) 100%);
       }
     </style>
   </head>
   <body>
     <div class="msg">
-      <p>你好呀，远道而来的探险家！</p>
-      <p>我知道你会来的，所以我一直在等 ~</p>
-      <p>茫茫宇宙中，日月星辰，再次交辉相映！</p>
-      <p>不过，似乎一切都还没有开始呢 ~ </p>
+      <div class='green'>你好呀，远道而来的探险家！</div>
+      <div class='green2'>我知道你会来的，所以我一直在等 ~</div>
+      <div class='green3'>茫茫宇宙中，日月星辰，再次交辉相映！</div>
+      <div class='green3'>不过，似乎一切都还没有开始呢 ~ </div>
     </div>
   </body>
 </html>
